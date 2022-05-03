@@ -1,13 +1,12 @@
 package com.mjv.agualuz.notification.model;
 
-public enum Pais {
-	BRASIL("BR"),
-	ESTADOS_UNIDOS("US"),
-	FRANÇA("FR");
+public enum TipoNotificacao {
+	SMS ("S"),
+	WHATS("W");
 	
-	private String sigla;
+private String sigla;
 	
-	private Pais(String sigla) {
+	private TipoNotificacao(String sigla) {
 		this.sigla = sigla;
 	}
 
@@ -18,6 +17,4 @@ public enum Pais {
 	public void setSigla(String sigla) {
 		this.sigla = sigla;
 	}
-	
-	
 }

@@ -6,6 +6,7 @@ public class Cadastro {
 	private Endereco endereco;
 	private Pais pais;
 	private String rg;
+	private String celular;
 	
 	public String getNome() {
 		return nome;
@@ -36,6 +37,12 @@ public class Cadastro {
 	}
 	public void setRg(String rg) {
 		this.rg = rg;
+	}
+	public String getCelular() {
+		return celular;
+	}
+	public void setCelular(String celular) {
+		this.celular = celular;
 	}
 	
 }
